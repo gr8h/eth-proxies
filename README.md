@@ -1,6 +1,8 @@
-# Ethereum Proxy
+# Solidity Proxy
 
 This project demonstrates a basic Proxy for learning purposes only.
+
+**A proxy** is a smart contract that acts as an intermediary between a user and another smart contract. It allows users to interact with the underlying contract without having to know its address, and it can also be used to add additional functionality to the underlying contract.
 
 As smart contract code can never be upgraded, a proxy can set between the EOA and the contract (the Logic), then if we need to upgrad our logic we can ask our proxy to point to the new logic.
 
